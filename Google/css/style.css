@@ -1,0 +1,103 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  scroll-behavior:smooth;
+}
+
+body {
+  /* The image used */
+  background-image: url("../images/main.jpg");
+
+  /* Full height */
+  height: 50%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+a:hover{text-decoration:none;}
+
+.geta
+{
+    text-decoration: :none;
+    margin-top:220px;
+    border-radius:30%;
+   font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.gets:hover{color:white;background-color: grey;transition: 1s;}
+
+.gets
+{
+    border-radius:0%;
+    padding :25px ;
+    font-size: 80px;
+    color:black;background-color: white;
+    transition:0.5s;
+}
+
+.btnlogin{
+padding:15px;
+font-size:30px;
+font-family: 'Nunito Sans', sans-serif;
+}
+
